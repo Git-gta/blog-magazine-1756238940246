@@ -1,0 +1,14 @@
+{
+  "name": "blog-magazine",
+  "version": "1.0.0",
+  "description": "Un blog moderne avec système d'articles et navigation intuitive",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "serve": "^14.0.0"
+  }
+}
